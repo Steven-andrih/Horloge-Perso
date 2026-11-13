@@ -1,0 +1,38 @@
+# --- Secrets : ne JAMAIS publier ---
+keystore.properties
+*.jks
+*.keystore
+
+# --- Gradle / build ---
+.gradle/
+build/
+*/build/
+.kotlin/
+local.properties
+
+# --- APK / bundles générés ---
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# --- Polices téléchargées (régénérées par get_fonts.sh) ---
+app/src/main/assets/fonts/*.ttf
+app/src/main/assets/fonts/*.otf
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+*.log
+*.hprof
+captures/
+.externalNativeBuild/
+.cxx/
